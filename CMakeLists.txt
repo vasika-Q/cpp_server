@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(epollserver)
+add_executable(ser.o ser_http.cpp)
+add_executable(cli.o cli_http.cpp)
+add_executable(epollserver.o epoll_ser.cpp)
